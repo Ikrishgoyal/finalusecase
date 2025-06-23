@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "static_website_bucket" {
-  bucket = "krishbucket" # Replace with a unique bucket name
+  bucket = "krishfinalbucket1" # Replace with a unique bucket name
   # acl = "public-read" # Keep this commented out or removed as per previous fix
 
   website {
